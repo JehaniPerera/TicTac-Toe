@@ -1,35 +1,35 @@
 
 Current Board:
-  X   
       
       
+    X 
 
 Current Board:
-  X   
-O     
       
-
-Current Board:
-X X   
-O     
-      
-
-Current Board:
-X X   
-O     
   O   
+    X 
 
 Current Board:
-X X   
+      
+  O   
+  Z X 
+
+Current Board:
+      
+  O X 
+  Z X 
+
+Current Board:
 O     
   O X 
+  Z X 
 
 Current Board:
-X X   
-O   O 
+O Z   
   O X 
+  Z X 
 
 Current Board:
-X X   
-O X O 
+O Z X 
   O X 
+  Z X 
