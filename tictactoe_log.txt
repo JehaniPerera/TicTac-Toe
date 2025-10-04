@@ -1,0 +1,40 @@
+
+Current Board:
+X     
+      
+      
+
+Current Board:
+X     
+  O   
+      
+
+Current Board:
+X X   
+  O   
+      
+
+Current Board:
+X X O 
+  O   
+      
+
+Current Board:
+X X O 
+  O   
+X     
+
+Current Board:
+X X O 
+O O   
+X     
+
+Current Board:
+X X O 
+O O   
+X X   
+
+Current Board:
+X X O 
+O O O 
+X X   
