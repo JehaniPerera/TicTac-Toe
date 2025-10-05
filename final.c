@@ -89,12 +89,11 @@ void computerMove(char **board, int n, char symbol) {
     printf("Computer (%c) placed at (%d, %d)\n", symbol, row, col);
 }
 
-// -------------------------------------------
 // Main Function
-// -------------------------------------------
+
 int main() {
     int n, choice;
-    srand(time(0)); // Random seed
+    srand(time(0)); 
     printf("Enter board size N (3 <= N <= 10): ");
     scanf("%d", &n);
 
@@ -113,7 +112,7 @@ int main() {
     printf("Enter choice (1-3): ");
     scanf("%d", &choice);
 
-    // Mode 1: Two players (User vs User)
+    // Mode 1 Two players (User vs User)
     if (choice == 1) {
         int turn = 0;
         char players[2] = {'X', 'O'};
@@ -145,7 +144,7 @@ int main() {
         }
     }
 
-    // Mode 2: User vs Computer
+    // Mode 2 User vs Computer
     else if (choice == 2) {
         int row, col;
         while (1) {
@@ -187,7 +186,7 @@ int main() {
         }
     }
 
-    // Mode 3: Three Players
+    // Mode 3 Three Players
     else if (choice == 3) {
         char players[3] = {'X', 'O', 'Z'};
         int isHuman[3];
