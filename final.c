@@ -1,3 +1,6 @@
+#ifndef TICTACTOE_H
+#define TICTACTOE_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -10,6 +13,8 @@ int checkWin(char **board, int n, char symbol);
 int checkDraw(char **board, int n);
 void logMove(FILE *fp, char **board, int n);
 void computerMove(char **board, int n, char symbol);
+
+#endif
 
 void initBoard(char **board, int n) {
     for (int i = 0; i < n; i++)
