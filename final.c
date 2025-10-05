@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 // Function prototypes
 void initBoard(char **board, int n);
 void displayBoard(char **board, int n);
@@ -15,6 +16,8 @@ void logMove(FILE *fp, char **board, int n);
 void computerMove(char **board, int n, char symbol);
 
 #endif
+
+#include "tictactoe.h"
 
 void initBoard(char **board, int n) {
     for (int i = 0; i < n; i++)
